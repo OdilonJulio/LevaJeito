@@ -27,7 +27,7 @@ class TabelaHashDeVerificacao {
   public:
   
     void mostrarRegistroDeEstados();
-    vector<Registro> getStatusLogVector();
+    vector<Registro> getVetorDeRegistrosDeEstados();
     TabelaHashDeVerificacao(vector<string>, vector<Registro>);
     TabelaHashDeVerificacao(vector<string>, vector<Registro>, string);
     ~TabelaHashDeVerificacao();
